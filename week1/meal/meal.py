@@ -31,7 +31,7 @@ def convert(time):
     if (hrs < 0 or hrs > 23 or min < 0 or min > 60):
         print("Invalid time format!")
         print("Expected input is 24-hour time as #:## or ##:##")
-        exit(1)
+        exit(2)
 
     return hrs + min/60
 

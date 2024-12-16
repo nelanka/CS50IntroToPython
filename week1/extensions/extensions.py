@@ -1,7 +1,6 @@
 # https://cs50.harvard.edu/python/2022/psets/1/extensions/
 
-extension = input("File name: ").split(".")[1].lower()
-match extension:
+match input("File name: ").split(".")[1].lower():
     case "gif":
         print("image/gif")
     case "jpg" | "jpeg":
